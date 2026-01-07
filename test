@@ -1,0 +1,14 @@
+import random
+for i in range (10, 0, -1)
+print i
+dice = random.randint (1,20)
+print(str(dice))
+count = 1
+while dice != 20:
+  dice = random.randint (1,20)
+  print(str(dice))
+  count +=1
+if count == 1:
+  print('It took you ' + str(count) + ' try to get a 20... average.')
+else:
+  print('It took you ' + str(count) + ' tries to get a 20... emberassing.')
